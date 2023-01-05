@@ -1,0 +1,5 @@
+
+2022-12-11 23:11:02,344 Fetching artifact nyc_airbnb/cleaned_data:latest
+2022-12-11 23:11:04,016 Splitting trainval and test
+2022-12-11 23:11:04,025 Uploading trainval_data.csv dataset
+2022-12-11 23:11:14,071 Uploading test_data.csv dataset

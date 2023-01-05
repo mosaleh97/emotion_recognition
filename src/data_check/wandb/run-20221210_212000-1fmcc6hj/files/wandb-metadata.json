@@ -1,0 +1,129 @@
+{
+    "os": "Linux-5.15.0-56-generic-x86_64-with-glibc2.35",
+    "python": "3.9.15",
+    "heartbeatAt": "2022-12-10T19:20:02.326198",
+    "startedAt": "2022-12-10T19:20:00.877771",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        ".",
+        "-vv",
+        "--csv",
+        "nyc_airbnb/clean_sample:latest",
+        "--ref",
+        "nyc_airbnb/clean_sample:reference",
+        "--kl_threshold",
+        "0.2",
+        "--min_price",
+        "10",
+        "--max_price",
+        "350"
+    ],
+    "state": "running",
+    "program": "/home/mohamed/miniconda3/envs/mlflow-5e2a58e1caf35fe6aa8dcd537aba2770aff6c3e8/bin/pytest",
+    "git": {
+        "remote": "https://github.com/mosaleh97/build-ml-pipeline-for-short-term-rental-prices.git",
+        "commit": "3875b8df75648a69601bbe9a924010791757077c"
+    },
+    "email": "mohamedabdelnabysaleh97@gmail.com",
+    "root": "/home/mohamed/build-ml-pipeline-for-short-term-rental-prices",
+    "host": "mohamed-Dell-G15-5511",
+    "username": "mohamed",
+    "executable": "/home/mohamed/miniconda3/envs/mlflow-5e2a58e1caf35fe6aa8dcd537aba2770aff6c3e8/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2235.044,
+        "min": 800.0,
+        "max": 4600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2300.0,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2300.0,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2300.0,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2300.0,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2300.0,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2300.0,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1260.704,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2300.0,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2300.0,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2300.0,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2300.0,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2300.0,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2300.0,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2300.0,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2300.0,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2300.0,
+            "min": 800.0,
+            "max": 4600.0
+        }
+    ],
+    "disk": {
+        "total": 95.56452178955078,
+        "used": 31.90932846069336
+    },
+    "memory": {
+        "total": 15.374340057373047
+    }
+}

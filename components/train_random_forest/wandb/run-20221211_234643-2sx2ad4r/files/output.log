@@ -1,0 +1,8 @@
+2022-12-11 23:46:45,663 Minimum price: 10, Maximum price: 350
+2022-12-11 23:46:45,669 Preparing sklearn pipeline
+2022-12-11 23:46:45,669 Fitting
+2022-12-11 23:46:50,911 Scoring
+2022-12-11 23:46:50,966 Score: 0.5605820037519968
+2022-12-11 23:46:50,966 MAE: 31.284700574241185
+2022-12-11 23:46:50,966 Exporting model
+wandb: Adding directory to artifact (./random_forest_dir)... Done. 0.0s

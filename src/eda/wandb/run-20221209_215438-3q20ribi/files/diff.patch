@@ -1,0 +1,81 @@
+diff --git a/components/get_data/run.py b/components/get_data/run.py
+index b77d7e5..f40ca56 100644
+--- a/components/get_data/run.py
++++ b/components/get_data/run.py
+@@ -12,8 +12,8 @@ from wandb_utils.log_artifact import log_artifact
+ 
+ logging.basicConfig(level=logging.INFO, format="%(asctime)-15s %(message)s")
+ logger = logging.getLogger()
+-
+-
++ 
++ 
+ def go(args):
+ 
+     run = wandb.init(job_type="download_file")
+diff --git a/config.yaml b/config.yaml
+index 73b8657..d4d3bd4 100644
+--- a/config.yaml
++++ b/config.yaml
+@@ -1,5 +1,5 @@
+ main:
+-  components_repository: "https://github.com/udacity/build-ml-pipeline-for-short-term-rental-prices/tree/main/components"
++  components_repository: "https://github.com/mosaleh97/build-ml-pipeline-for-short-term-rental-prices#components"
+   # All the intermediate files will be copied to this directory at the end of the run.
+   # Set this to null if you are running in prod
+   project_name: nyc_airbnb
+@@ -35,4 +35,4 @@ modeling:
+     criterion: mae
+     max_features: 0.5
+     # DO not change the following
+-    oob_score: true
+\ No newline at end of file
++    oob_score: true
+diff --git a/main.py b/main.py
+index 9abc5bb..b086862 100644
+--- a/main.py
++++ b/main.py
+@@ -31,12 +31,14 @@ def go(config: DictConfig):
+     # Steps to execute
+     steps_par = config['main']['steps']
+     active_steps = steps_par.split(",") if steps_par != "all" else _steps
++    
+ 
+     # Move to a temporary directory
+     with tempfile.TemporaryDirectory() as tmp_dir:
+ 
+         if "download" in active_steps:
+             # Download file and load in W&B
++            # mlflow run parameters are the following: <uri> <entrypoint> <parameters>
+             _ = mlflow.run(
+                 f"{config['main']['components_repository']}/get_data",
+                 "main",
+@@ -45,7 +47,7 @@ def go(config: DictConfig):
+                     "artifact_name": "sample.csv",
+                     "artifact_type": "raw_data",
+                     "artifact_description": "Raw file as downloaded"
+-                },
++                }
+             )
+ 
+         if "basic_cleaning" in active_steps:
+diff --git a/src/eda/conda.yml b/src/eda/conda.yml
+index 2411369..4529c87 100644
+--- a/src/eda/conda.yml
++++ b/src/eda/conda.yml
+@@ -3,11 +3,11 @@ channels:
+   - conda-forge
+   - defaults
+ dependencies:
+-  - jupyterlab=3.0.12
++  - jupyterlab=3.5.1
+   - seaborn=0.11.1
+   - pandas=1.2.3
+   - pip=20.3.3
+-  - pandas-profiling=2.11.0
++  - pandas-profiling=3.5.0
+   - pyarrow=2.0
+   - pip:
+-      - wandb==0.10.31
+\ No newline at end of file
++      - wandb==0.13.6

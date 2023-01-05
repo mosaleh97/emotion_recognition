@@ -1,0 +1,155 @@
+2022-12-11 23:11:00,721 INFO    MainThread:49202 [internal.py:wandb_internal():88] W&B internal server running at pid: 49202, started at: 2022-12-11 23:11:00.721328
+2022-12-11 23:11:00,722 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: check_version
+2022-12-11 23:11:00,722 INFO    WriterThread:49202 [datastore.py:open_for_write():77] open: /home/mohamed/build-ml-pipeline-for-short-term-rental-prices/components/train_val_test_split/wandb/run-20221211_231100-48oeukg7/run-48oeukg7.wandb
+2022-12-11 23:11:00,723 DEBUG   SenderThread:49202 [sender.py:send():179] send: header
+2022-12-11 23:11:00,723 DEBUG   SenderThread:49202 [sender.py:send_request():193] send_request: check_version
+2022-12-11 23:11:01,109 DEBUG   SenderThread:49202 [sender.py:send():179] send: run
+2022-12-11 23:11:01,517 INFO    SenderThread:49202 [dir_watcher.py:__init__():168] watching files in: /home/mohamed/build-ml-pipeline-for-short-term-rental-prices/components/train_val_test_split/wandb/run-20221211_231100-48oeukg7/files
+2022-12-11 23:11:01,517 INFO    SenderThread:49202 [sender.py:_start_run_threads():704] run started: 48oeukg7 with start time 1670793060
+2022-12-11 23:11:01,517 DEBUG   SenderThread:49202 [sender.py:send():179] send: summary
+2022-12-11 23:11:01,518 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: run_start
+2022-12-11 23:11:01,519 INFO    SenderThread:49202 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2022-12-11 23:11:01,521 DEBUG   HandlerThread:49202 [meta.py:__init__():39] meta init
+2022-12-11 23:11:01,521 DEBUG   HandlerThread:49202 [meta.py:__init__():53] meta init done
+2022-12-11 23:11:01,521 DEBUG   HandlerThread:49202 [meta.py:probe():210] probe
+2022-12-11 23:11:01,523 DEBUG   HandlerThread:49202 [meta.py:_setup_git():200] setup git
+2022-12-11 23:11:01,540 DEBUG   HandlerThread:49202 [meta.py:_setup_git():207] setup git done
+2022-12-11 23:11:01,540 DEBUG   HandlerThread:49202 [meta.py:_save_pip():57] save pip
+2022-12-11 23:11:01,541 DEBUG   HandlerThread:49202 [meta.py:_save_pip():71] save pip done
+2022-12-11 23:11:01,541 DEBUG   HandlerThread:49202 [meta.py:_save_conda():78] save conda
+2022-12-11 23:11:02,338 DEBUG   HandlerThread:49202 [meta.py:_save_conda():86] save conda done
+2022-12-11 23:11:02,338 DEBUG   HandlerThread:49202 [meta.py:probe():252] probe done
+2022-12-11 23:11:02,340 DEBUG   SenderThread:49202 [sender.py:send():179] send: files
+2022-12-11 23:11:02,340 INFO    SenderThread:49202 [sender.py:_save_file():829] saving file wandb-metadata.json with policy now
+2022-12-11 23:11:02,343 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: stop_status
+2022-12-11 23:11:02,343 DEBUG   SenderThread:49202 [sender.py:send_request():193] send_request: stop_status
+2022-12-11 23:11:02,521 INFO    Thread-8  :49202 [dir_watcher.py:_on_file_created():216] file/dir created: /home/mohamed/build-ml-pipeline-for-short-term-rental-prices/components/train_val_test_split/wandb/run-20221211_231100-48oeukg7/files/output.log
+2022-12-11 23:11:02,521 INFO    Thread-8  :49202 [dir_watcher.py:_on_file_created():216] file/dir created: /home/mohamed/build-ml-pipeline-for-short-term-rental-prices/components/train_val_test_split/wandb/run-20221211_231100-48oeukg7/files/wandb-summary.json
+2022-12-11 23:11:02,521 INFO    Thread-8  :49202 [dir_watcher.py:_on_file_created():216] file/dir created: /home/mohamed/build-ml-pipeline-for-short-term-rental-prices/components/train_val_test_split/wandb/run-20221211_231100-48oeukg7/files/conda-environment.yaml
+2022-12-11 23:11:02,522 INFO    Thread-8  :49202 [dir_watcher.py:_on_file_created():216] file/dir created: /home/mohamed/build-ml-pipeline-for-short-term-rental-prices/components/train_val_test_split/wandb/run-20221211_231100-48oeukg7/files/wandb-metadata.json
+2022-12-11 23:11:02,522 INFO    Thread-8  :49202 [dir_watcher.py:_on_file_created():216] file/dir created: /home/mohamed/build-ml-pipeline-for-short-term-rental-prices/components/train_val_test_split/wandb/run-20221211_231100-48oeukg7/files/requirements.txt
+2022-12-11 23:11:02,665 DEBUG   SenderThread:49202 [sender.py:send():179] send: config
+2022-12-11 23:11:03,160 INFO    Thread-11 :49202 [upload_job.py:push():133] Uploaded file /tmp/tmppf8_hvv8wandb/28lvy558-wandb-metadata.json
+2022-12-11 23:11:04,502 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: log_artifact
+2022-12-11 23:11:04,503 DEBUG   SenderThread:49202 [sender.py:send_request():193] send_request: log_artifact
+2022-12-11 23:11:04,519 INFO    Thread-8  :49202 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/mohamed/build-ml-pipeline-for-short-term-rental-prices/components/train_val_test_split/wandb/run-20221211_231100-48oeukg7/files/output.log
+2022-12-11 23:11:04,519 INFO    Thread-8  :49202 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/mohamed/build-ml-pipeline-for-short-term-rental-prices/components/train_val_test_split/wandb/run-20221211_231100-48oeukg7/files/config.yaml
+2022-12-11 23:11:06,520 INFO    Thread-8  :49202 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/mohamed/build-ml-pipeline-for-short-term-rental-prices/components/train_val_test_split/wandb/run-20221211_231100-48oeukg7/files/output.log
+2022-12-11 23:11:11,621 INFO    Thread-13 :49202 [upload_job.py:push():91] Uploaded file /home/mohamed/.cache/wandb/artifacts/obj/md5/05/d5a336b129b2193e78192e36092709
+2022-12-11 23:11:14,415 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: log_artifact
+2022-12-11 23:11:14,416 DEBUG   SenderThread:49202 [sender.py:send_request():193] send_request: log_artifact
+2022-12-11 23:11:16,525 INFO    Thread-8  :49202 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/mohamed/build-ml-pipeline-for-short-term-rental-prices/components/train_val_test_split/wandb/run-20221211_231100-48oeukg7/files/output.log
+2022-12-11 23:11:17,667 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: stop_status
+2022-12-11 23:11:17,709 INFO    Thread-15 :49202 [upload_job.py:push():91] Uploaded file /home/mohamed/.cache/wandb/artifacts/obj/md5/46/051056de8e3afda978c2a580180551
+2022-12-11 23:11:19,246 DEBUG   SenderThread:49202 [sender.py:send_request():193] send_request: stop_status
+2022-12-11 23:11:22,376 DEBUG   SenderThread:49202 [sender.py:send():179] send: telemetry
+2022-12-11 23:11:22,377 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: poll_exit
+2022-12-11 23:11:22,377 DEBUG   SenderThread:49202 [sender.py:send():179] send: exit
+2022-12-11 23:11:22,378 INFO    SenderThread:49202 [sender.py:send_exit():287] handling exit code: 0
+2022-12-11 23:11:22,378 INFO    SenderThread:49202 [sender.py:send_exit():295] send defer
+2022-12-11 23:11:22,378 DEBUG   SenderThread:49202 [sender.py:send_request():193] send_request: poll_exit
+2022-12-11 23:11:22,379 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: defer
+2022-12-11 23:11:22,379 INFO    HandlerThread:49202 [handler.py:handle_request_defer():141] handle defer: 0
+2022-12-11 23:11:22,380 DEBUG   SenderThread:49202 [sender.py:send_request():193] send_request: defer
+2022-12-11 23:11:22,380 INFO    SenderThread:49202 [sender.py:send_request_defer():304] handle sender defer: 0
+2022-12-11 23:11:22,380 INFO    SenderThread:49202 [sender.py:send_request_defer():342] send defer: 1
+2022-12-11 23:11:22,380 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: defer
+2022-12-11 23:11:22,381 INFO    HandlerThread:49202 [handler.py:handle_request_defer():141] handle defer: 1
+2022-12-11 23:11:22,395 DEBUG   SenderThread:49202 [sender.py:send_request():193] send_request: defer
+2022-12-11 23:11:22,396 INFO    SenderThread:49202 [sender.py:send_request_defer():304] handle sender defer: 1
+2022-12-11 23:11:22,396 INFO    SenderThread:49202 [sender.py:send_request_defer():342] send defer: 2
+2022-12-11 23:11:22,396 DEBUG   SenderThread:49202 [sender.py:send():179] send: stats
+2022-12-11 23:11:22,399 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: defer
+2022-12-11 23:11:22,399 INFO    HandlerThread:49202 [handler.py:handle_request_defer():141] handle defer: 2
+2022-12-11 23:11:22,400 DEBUG   SenderThread:49202 [sender.py:send_request():193] send_request: defer
+2022-12-11 23:11:22,400 INFO    SenderThread:49202 [sender.py:send_request_defer():304] handle sender defer: 2
+2022-12-11 23:11:22,400 INFO    SenderThread:49202 [sender.py:send_request_defer():342] send defer: 3
+2022-12-11 23:11:22,401 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: defer
+2022-12-11 23:11:22,401 INFO    HandlerThread:49202 [handler.py:handle_request_defer():141] handle defer: 3
+2022-12-11 23:11:22,401 DEBUG   SenderThread:49202 [sender.py:send():179] send: summary
+2022-12-11 23:11:22,402 INFO    SenderThread:49202 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2022-12-11 23:11:22,402 DEBUG   SenderThread:49202 [sender.py:send_request():193] send_request: defer
+2022-12-11 23:11:22,402 INFO    SenderThread:49202 [sender.py:send_request_defer():304] handle sender defer: 3
+2022-12-11 23:11:22,402 INFO    SenderThread:49202 [sender.py:send_request_defer():342] send defer: 4
+2022-12-11 23:11:22,403 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: defer
+2022-12-11 23:11:22,403 INFO    HandlerThread:49202 [handler.py:handle_request_defer():141] handle defer: 4
+2022-12-11 23:11:22,403 DEBUG   SenderThread:49202 [sender.py:send_request():193] send_request: defer
+2022-12-11 23:11:22,403 INFO    SenderThread:49202 [sender.py:send_request_defer():304] handle sender defer: 4
+2022-12-11 23:11:22,480 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: poll_exit
+2022-12-11 23:11:22,529 INFO    Thread-8  :49202 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/mohamed/build-ml-pipeline-for-short-term-rental-prices/components/train_val_test_split/wandb/run-20221211_231100-48oeukg7/files/output.log
+2022-12-11 23:11:22,529 INFO    Thread-8  :49202 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/mohamed/build-ml-pipeline-for-short-term-rental-prices/components/train_val_test_split/wandb/run-20221211_231100-48oeukg7/files/wandb-summary.json
+2022-12-11 23:11:22,787 INFO    SenderThread:49202 [sender.py:send_request_defer():342] send defer: 5
+2022-12-11 23:11:22,787 DEBUG   SenderThread:49202 [sender.py:send_request():193] send_request: poll_exit
+2022-12-11 23:11:22,788 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: defer
+2022-12-11 23:11:22,788 INFO    HandlerThread:49202 [handler.py:handle_request_defer():141] handle defer: 5
+2022-12-11 23:11:22,788 DEBUG   SenderThread:49202 [sender.py:send_request():193] send_request: defer
+2022-12-11 23:11:22,789 INFO    SenderThread:49202 [sender.py:send_request_defer():304] handle sender defer: 5
+2022-12-11 23:11:22,789 INFO    SenderThread:49202 [dir_watcher.py:finish():282] shutting down directory watcher
+2022-12-11 23:11:22,890 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: poll_exit
+2022-12-11 23:11:23,529 INFO    Thread-8  :49202 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/mohamed/build-ml-pipeline-for-short-term-rental-prices/components/train_val_test_split/wandb/run-20221211_231100-48oeukg7/files/config.yaml
+2022-12-11 23:11:23,531 INFO    SenderThread:49202 [dir_watcher.py:finish():312] scan: /home/mohamed/build-ml-pipeline-for-short-term-rental-prices/components/train_val_test_split/wandb/run-20221211_231100-48oeukg7/files
+2022-12-11 23:11:23,531 INFO    SenderThread:49202 [dir_watcher.py:finish():318] scan save: /home/mohamed/build-ml-pipeline-for-short-term-rental-prices/components/train_val_test_split/wandb/run-20221211_231100-48oeukg7/files/requirements.txt requirements.txt
+2022-12-11 23:11:23,531 INFO    SenderThread:49202 [dir_watcher.py:finish():318] scan save: /home/mohamed/build-ml-pipeline-for-short-term-rental-prices/components/train_val_test_split/wandb/run-20221211_231100-48oeukg7/files/output.log output.log
+2022-12-11 23:11:23,531 INFO    SenderThread:49202 [dir_watcher.py:finish():318] scan save: /home/mohamed/build-ml-pipeline-for-short-term-rental-prices/components/train_val_test_split/wandb/run-20221211_231100-48oeukg7/files/conda-environment.yaml conda-environment.yaml
+2022-12-11 23:11:23,537 INFO    SenderThread:49202 [dir_watcher.py:finish():318] scan save: /home/mohamed/build-ml-pipeline-for-short-term-rental-prices/components/train_val_test_split/wandb/run-20221211_231100-48oeukg7/files/wandb-summary.json wandb-summary.json
+2022-12-11 23:11:23,548 INFO    SenderThread:49202 [dir_watcher.py:finish():318] scan save: /home/mohamed/build-ml-pipeline-for-short-term-rental-prices/components/train_val_test_split/wandb/run-20221211_231100-48oeukg7/files/wandb-metadata.json wandb-metadata.json
+2022-12-11 23:11:23,548 INFO    SenderThread:49202 [dir_watcher.py:finish():318] scan save: /home/mohamed/build-ml-pipeline-for-short-term-rental-prices/components/train_val_test_split/wandb/run-20221211_231100-48oeukg7/files/config.yaml config.yaml
+2022-12-11 23:11:23,548 INFO    SenderThread:49202 [sender.py:send_request_defer():342] send defer: 6
+2022-12-11 23:11:23,548 DEBUG   SenderThread:49202 [sender.py:send_request():193] send_request: poll_exit
+2022-12-11 23:11:23,549 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: defer
+2022-12-11 23:11:23,549 INFO    HandlerThread:49202 [handler.py:handle_request_defer():141] handle defer: 6
+2022-12-11 23:11:23,550 DEBUG   SenderThread:49202 [sender.py:send_request():193] send_request: defer
+2022-12-11 23:11:23,550 INFO    SenderThread:49202 [sender.py:send_request_defer():304] handle sender defer: 6
+2022-12-11 23:11:23,550 INFO    SenderThread:49202 [file_pusher.py:finish():176] shutting down file pusher
+2022-12-11 23:11:23,550 INFO    SenderThread:49202 [sender.py:send_request_defer():342] send defer: 7
+2022-12-11 23:11:23,551 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: defer
+2022-12-11 23:11:23,551 INFO    HandlerThread:49202 [handler.py:handle_request_defer():141] handle defer: 7
+2022-12-11 23:11:23,551 DEBUG   SenderThread:49202 [sender.py:send_request():193] send_request: defer
+2022-12-11 23:11:23,551 INFO    SenderThread:49202 [sender.py:send_request_defer():304] handle sender defer: 7
+2022-12-11 23:11:23,650 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: poll_exit
+2022-12-11 23:11:23,927 INFO    SenderThread:49202 [sender.py:send_request_defer():342] send defer: 8
+2022-12-11 23:11:23,927 DEBUG   SenderThread:49202 [sender.py:send_request():193] send_request: poll_exit
+2022-12-11 23:11:23,928 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: defer
+2022-12-11 23:11:23,928 INFO    HandlerThread:49202 [handler.py:handle_request_defer():141] handle defer: 8
+2022-12-11 23:11:23,928 DEBUG   SenderThread:49202 [sender.py:send_request():193] send_request: defer
+2022-12-11 23:11:23,928 INFO    SenderThread:49202 [sender.py:send_request_defer():304] handle sender defer: 8
+2022-12-11 23:11:23,929 INFO    SenderThread:49202 [sender.py:send_request_defer():342] send defer: 9
+2022-12-11 23:11:23,930 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: defer
+2022-12-11 23:11:23,930 DEBUG   SenderThread:49202 [sender.py:send():179] send: final
+2022-12-11 23:11:23,930 INFO    HandlerThread:49202 [handler.py:handle_request_defer():141] handle defer: 9
+2022-12-11 23:11:23,930 DEBUG   SenderThread:49202 [sender.py:send():179] send: footer
+2022-12-11 23:11:23,931 DEBUG   SenderThread:49202 [sender.py:send_request():193] send_request: defer
+2022-12-11 23:11:23,931 INFO    SenderThread:49202 [sender.py:send_request_defer():304] handle sender defer: 9
+2022-12-11 23:11:24,030 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: poll_exit
+2022-12-11 23:11:24,030 DEBUG   SenderThread:49202 [sender.py:send_request():193] send_request: poll_exit
+2022-12-11 23:11:24,131 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: poll_exit
+2022-12-11 23:11:24,131 DEBUG   SenderThread:49202 [sender.py:send_request():193] send_request: poll_exit
+2022-12-11 23:11:24,233 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: poll_exit
+2022-12-11 23:11:24,234 DEBUG   SenderThread:49202 [sender.py:send_request():193] send_request: poll_exit
+2022-12-11 23:11:24,336 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: poll_exit
+2022-12-11 23:11:24,337 DEBUG   SenderThread:49202 [sender.py:send_request():193] send_request: poll_exit
+2022-12-11 23:11:24,440 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: poll_exit
+2022-12-11 23:11:24,440 DEBUG   SenderThread:49202 [sender.py:send_request():193] send_request: poll_exit
+2022-12-11 23:11:24,543 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: poll_exit
+2022-12-11 23:11:24,543 DEBUG   SenderThread:49202 [sender.py:send_request():193] send_request: poll_exit
+2022-12-11 23:11:24,569 INFO    Thread-17 :49202 [upload_job.py:push():133] Uploaded file /home/mohamed/build-ml-pipeline-for-short-term-rental-prices/components/train_val_test_split/wandb/run-20221211_231100-48oeukg7/files/output.log
+2022-12-11 23:11:24,572 INFO    Thread-18 :49202 [upload_job.py:push():133] Uploaded file /home/mohamed/build-ml-pipeline-for-short-term-rental-prices/components/train_val_test_split/wandb/run-20221211_231100-48oeukg7/files/conda-environment.yaml
+2022-12-11 23:11:24,575 INFO    Thread-16 :49202 [upload_job.py:push():133] Uploaded file /home/mohamed/build-ml-pipeline-for-short-term-rental-prices/components/train_val_test_split/wandb/run-20221211_231100-48oeukg7/files/requirements.txt
+2022-12-11 23:11:24,578 INFO    Thread-20 :49202 [upload_job.py:push():133] Uploaded file /home/mohamed/build-ml-pipeline-for-short-term-rental-prices/components/train_val_test_split/wandb/run-20221211_231100-48oeukg7/files/config.yaml
+2022-12-11 23:11:24,581 INFO    Thread-19 :49202 [upload_job.py:push():133] Uploaded file /home/mohamed/build-ml-pipeline-for-short-term-rental-prices/components/train_val_test_split/wandb/run-20221211_231100-48oeukg7/files/wandb-summary.json
+2022-12-11 23:11:24,646 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: poll_exit
+2022-12-11 23:11:24,646 DEBUG   SenderThread:49202 [sender.py:send_request():193] send_request: poll_exit
+2022-12-11 23:11:24,757 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: poll_exit
+2022-12-11 23:11:24,758 DEBUG   SenderThread:49202 [sender.py:send_request():193] send_request: poll_exit
+2022-12-11 23:11:24,861 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: poll_exit
+2022-12-11 23:11:24,861 DEBUG   SenderThread:49202 [sender.py:send_request():193] send_request: poll_exit
+2022-12-11 23:11:24,862 INFO    SenderThread:49202 [file_pusher.py:join():181] waiting for file pusher
+2022-12-11 23:11:24,864 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: get_summary
+2022-12-11 23:11:24,865 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: sampled_history
+2022-12-11 23:11:24,866 DEBUG   HandlerThread:49202 [handler.py:handle_request():124] handle_request: shutdown
+2022-12-11 23:11:24,867 INFO    HandlerThread:49202 [handler.py:finish():638] shutting down handler
+2022-12-11 23:11:24,930 INFO    WriterThread:49202 [datastore.py:close():258] close: /home/mohamed/build-ml-pipeline-for-short-term-rental-prices/components/train_val_test_split/wandb/run-20221211_231100-48oeukg7/run-48oeukg7.wandb
+2022-12-11 23:11:25,862 INFO    SenderThread:49202 [sender.py:finish():933] shutting down sender
+2022-12-11 23:11:25,862 INFO    SenderThread:49202 [file_pusher.py:finish():176] shutting down file pusher
+2022-12-11 23:11:25,862 INFO    SenderThread:49202 [file_pusher.py:join():181] waiting for file pusher
+2022-12-11 23:11:25,863 INFO    MainThread:49202 [internal.py:handle_exit():78] Internal process exited

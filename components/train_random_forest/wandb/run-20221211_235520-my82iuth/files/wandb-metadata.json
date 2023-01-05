@@ -1,0 +1,37 @@
+{
+    "os": "Linux-5.15.0-56-generic-x86_64-with-glibc2.10",
+    "python": "3.8.15",
+    "heartbeatAt": "2022-12-11T21:55:21.798422",
+    "startedAt": "2022-12-11T21:55:20.840705",
+    "docker": null,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--trainval_artifact",
+        "nyc_airbnb/trainval_data.csv:latest",
+        "--val_size",
+        "0.2",
+        "--random_seed",
+        "42",
+        "--stratify_by",
+        "neighbourhood_group",
+        "--rf_config",
+        "/home/mohamed/build-ml-pipeline-for-short-term-rental-prices/multirun/2022-12-11/23-44-08/14/rf_config.json",
+        "--max_tfidf_features",
+        "30",
+        "--output_artifact",
+        "random_forest_model"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "src/train_random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/mosaleh97/build-ml-pipeline-for-short-term-rental-prices.git",
+        "commit": "3875b8df75648a69601bbe9a924010791757077c"
+    },
+    "email": "mohamedabdelnabysaleh97@gmail.com",
+    "root": "/home/mohamed/build-ml-pipeline-for-short-term-rental-prices",
+    "host": "mohamed-Dell-G15-5511",
+    "username": "mohamed",
+    "executable": "/home/mohamed/miniconda3/envs/mlflow-cd3b4f52f7dead4ede9554d420a1b9da8d8db1e3/bin/python"
+}
